@@ -738,7 +738,7 @@ export default function LandingPage() {
             <h3 className="text-3xl font-semibold bg-gradient-to-r from-emerald-300 to-white bg-clip-text text-transparent mb-6">
               Os Riscos do Investimento em Ações
             </h3>
-            <p className="mb-8 text-lg">
+            <p className="mb-8 text-lg text-white">
               Muitas pessoas analisam gráficos depois que tudo já aconteceu e acham que investir é
               fácil. Mas a realidade do mercado é desafiadora, e os investidores inexperientes podem
               cometer erros graves.
@@ -795,7 +795,7 @@ export default function LandingPage() {
               ))}
             </div>
 
-            <p className="my-8 text-lg">
+            <p className="my-8  text-white text-lg">
               No longo prazo, o que realmente importa é a qualidade da empresa e seu valor real no
               mercado.
             </p>
