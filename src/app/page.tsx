@@ -52,7 +52,7 @@ const growthData = [
   { year: "2024", growth: 6.3 },
 ];
 
-const GridPattern = ({ className }: { className?: string }) => (
+const GridPattern = () => (
   <svg
     className="absolute inset-0 w-full h-full opacity-20"
     xmlns="http://www.w3.org/2000/svg"
@@ -239,7 +239,7 @@ export default function LandingPage() {
                 <div className="flex items-start gap-3">
                   <BookOpen className="h-5 w-5 text-emerald-900 mt-1" />
                   <span className="text-emerald-900">
-                    Autor do livro "Análise de Investimentos e Mercado de Capitais"
+                    Autor do livro &quot;Análise de Investimentos e Mercado de Capitais&quot;
                   </span>
                 </div>
                 <div className="flex items-start gap-3">
@@ -624,7 +624,7 @@ export default function LandingPage() {
         id="performance"
         className="py-20 px-6 bg-gradient-to-br from-emerald-900 to-gray-900 relative overflow-hidden"
       >
-        <GridPattern className="opacity-20" />
+        <GridPattern />
         <div className="max-w-7xl mx-auto relative z-10">
           {/* Header Section */}
           <motion.div
