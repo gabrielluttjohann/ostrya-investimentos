@@ -20,9 +20,9 @@ const ContactButton = ({
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className={`bg-emerald-600 hover:bg-emerald-500 px-5 py-2 rounded-full transition shadow-lg flex items-center gap-2 ${className}`}
+      className={`text-xs md:text-base bg-emerald-600 hover:bg-emerald-500 px-5 py-2 rounded-full transition shadow-lg inline-flex items-center gap-2 ${className}`}
     >
-      <Icon className="h-4 w-4" />
+      <Icon className="hidden md:block h-4 w-4" />
       <span>{label}</span>
     </Link>
   );
